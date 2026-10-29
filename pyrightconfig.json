@@ -1,0 +1,24 @@
+{
+  "include": [
+    "src",
+    "tests"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.venv/**",
+    "**/.git/**",
+    "**/*.pyc",
+    "**/.mypy_cache/**",
+    "**/.pytest_cache/**"
+  ],
+  "typeCheckingMode": "basic",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.12",
+  "venvPath": ".",
+  "venv": ".venv",
+  "extraPaths": [
+    "src"
+  ]
+}

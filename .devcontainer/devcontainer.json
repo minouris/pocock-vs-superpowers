@@ -1,0 +1,31 @@
+{
+  "name": "pocock-vs-superpowers",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspaces/pocock-vs-superpowers",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode-remote.remote-containers",
+        "redhat.vscode-yaml",
+        "vstirbu.vscode-mermaid-preview",
+        "ms-python.debugpy",
+        "ms-python.python",
+        "sst-dev.opencode",
+        "sekarmk03.function-call-graph-tracer"
+      ],
+      "settings": {
+        "editor.formatOnSave": false,
+        "chat.disableAIFeatures": true,
+        "github.copilot.enable": {
+          "*": false
+        }
+      }
+    }
+  },
+
+  "initializeCommand": "mkdir -p ${localEnv:HOME}/.config/opencode 2> /dev/null && touch ${localWorkspaceFolder}/.devcontainer/.env 2> /dev/null && mkdir -p ${localWorkspaceFolder}/.local/state/opencode ${localWorkspaceFolder}/.local/share/opencode ${localWorkspaceFolder}/.config/opencode",
+
+  "postCreateCommand": "git config --global user.name \"${GIT_USER_NAME}\" && git config --global user.email \"${GIT_USER_EMAIL}\""
+}
