@@ -10,8 +10,6 @@
         "ms-vscode-remote.remote-containers",
         "redhat.vscode-yaml",
         "vstirbu.vscode-mermaid-preview",
-        "ms-python.debugpy",
-        "ms-python.python",
         "sst-dev.opencode",
         "sekarmk03.function-call-graph-tracer"
       ],
