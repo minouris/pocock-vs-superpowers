@@ -25,3 +25,7 @@ Both projects package reusable, markdown-based instructions ("skills") that guid
 ## Sources
 
 Research was conducted by directly examining the official repositories of both projects rather than relying on secondary summaries. See the main report's "Research Trail" section for full traceability.
+
+## Author
+
+Ciara Norrish ([@Minouris](https://github.com/Minouris))
