@@ -39,4 +39,4 @@ ENV PATH="/home/vscode/.npm-global/bin:${PATH}"
 
 ENV PIP_BREAK_SYSTEM_PACKAGES=1
 
-RUN curl -fsSL https://opencode.ai/install | bash
+RUN curl -fsSL https://opencode.ai/v2/install | bash
